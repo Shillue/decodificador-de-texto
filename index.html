@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="./assets/lupa.png">
+    <title>Decotificador</title>
+</head>
+<body>
+    <header></header>
+    <main class="tela">
+        <section class="telaPrincipal">
+            <h1 class="telaPrincipalTitulo">a</h1>
+            <textarea name="texto" class="textoPrincipal" id="textoPrincipal" cols="30" rows="30" placeholder="Digite o texto aqui"></textarea>
+            <p class="paragrafo"><img class="inconeAjuda" src="./assets/ajuda.png" alt="ajudar"> Apenas letras minusculas e sem acentos.</p>
+            <div class="botoes">
+                <button onclick= "codificarTexto()" class="botaoCodificarDecodificar">Codificar</button>
+                <button onclick="decodificarTexto()" class="botaoCodificarDecodificar">Decodificar</button>
+                <button onclick="limparTelas()" class="botaoCodificarDecodificar">Limpar</button>
+            </div>
+        </section>
+        <section class="telaSecundaria">
+            <div class="telaSecundariaTexto" id="resultado">
+                <img class="imagemTelaSecundaria" src="./assets/High quality products 1 1.svg" alt="" srcset="">
+                <div class="elementosTextuais">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <button class="botaoCopiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Alura challenge, desenvolvido por Shilluê - 2024</p>
+        <ul class="rodapeRedes">
+            <li><a class="rodapeLink" href="https://www.linkedin.com/in/shillu%C3%AA/" target="_blank"> <img src="./assets/linkedin.png" alt="Loga do Linkedin"> Linkedin</a></li>
+            <li><a class="rodapeLink" href="https://github.com/Shillue" target="_blank"><img src="./assets/github.png" alt="Loga do GitHub"> GitHub</a></li>
+        </ul>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
