@@ -13,7 +13,7 @@ Uma Aplicação que criptografa e decodifica textos de acordo com as "chaves" de
 * A letra "a" é convertida para "ai"
 * A letra "o" é convertida para "ober"
 * A letra "u" é convertida para "ufat"
-Além disso, possui um botão de copia e um botão para limpar.
+Além disso, aceita apenas letras minusculas e sem acentos, com também, possui um botão de copia e um botão para limpar.
 
 #Pré-visualização
 ![decodificador-texto-01](https://github.com/Shillue/decodificador-de-texto/assets/86475008/78afb075-2c13-4324-bbf9-2582f072b917)

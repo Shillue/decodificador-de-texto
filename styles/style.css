@@ -118,7 +118,7 @@ header{
     background-color:var(--cor-terciaria);
     border-radius: 50px;
     text-align: center;
-    box-shadow: 10px 10px 6px var(--cor-sombra);
+    box-shadow: 10px 10px 25px var(--cor-sombra);
     overflow:auto;
 }
 .telaSecundaria::-webkit-scrollbar {
