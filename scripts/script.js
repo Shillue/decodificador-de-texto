@@ -76,6 +76,10 @@ function copiarTexto() {
   
     const textarea = document.getElementById("textoPrincipal");
     textarea.value = textoCopiar;
+
+    //Copiar para área de transferência
+    navigator.clipboard.writeText(textoCopiar);
+        
     limparTelaSecundaria();
 }
 
